@@ -1,0 +1,62 @@
+{
+    "name": "cowlby/zend-studio-libraries",
+    "description": "Composer library to manage zend studio libraries across computers.",
+    "authors": [
+        {
+            "name": "Jose Prado",
+            "email": "cowlby@me.com"
+        }
+    ],
+
+    "require": {
+        "doctrine/common": ">=2.2,<2.4-dev",
+        "doctrine/dbal": ">=2.2,<2.4-dev",
+        "doctrine/orm": ">=2.2,<2.4-dev",
+        "guzzle/guzzle": "dev-master",
+        "monolog/monolog": "1.*",
+        "pimple/pimple": "1.*",
+        "silex/silex": "1.0.x-dev",
+        "swiftmailer/swiftmailer": "4.2.*",
+        "symfony/doctrine-bridge": "2.1.x-dev",
+        "symfony/swiftmailer-bridge": "2.1.x-dev",
+        "symfony/twig-bridge": "2.1.x-dev",
+        "symfony/framework-bundle": "2.1.x-dev",
+        "symfony/security-bundle": "2.1.x-dev",
+        "symfony/twig-bundle": "2.1.x-dev",
+        "symfony/web-profiler-bundle": "2.1.x-dev",
+        "symfony/browser-kit": "2.1.x-dev",
+        "symfony/class-loader": "2.1.x-dev",
+        "symfony/config": "2.1.x-dev",
+        "symfony/console": "2.1.x-dev",
+        "symfony/css-selector": "2.1.x-dev",
+        "symfony/dependency-injection": "2.1.x-dev",
+        "symfony/dom-crawler": "2.1.x-dev",
+        "symfony/event-dispatcher": "2.1.x-dev",
+        "symfony/filesystem": "2.1.x-dev",
+        "symfony/finder": "2.1.x-dev",
+        "symfony/form": "2.1.x-dev",
+        "symfony/http-foundation": "2.1.x-dev",
+        "symfony/http-kernel": "2.1.x-dev",
+        "symfony/locale": "2.1.x-dev",
+        "symfony/options-resolver": "2.1.x-dev",
+        "symfony/process": "2.1.x-dev",
+        "symfony/routing": "2.1.x-dev",
+        "symfony/security": "2.1.x-dev",
+        "symfony/serializer": "2.1.x-dev",
+        "symfony/templating": "2.1.x-dev",
+        "symfony/translation": "2.1.x-dev",
+        "symfony/validator": "2.1.x-dev",
+        "symfony/yaml": "2.1.x-dev",
+        "twig/twig": ">=1.8.0,<2.0-dev",
+        "zendframework/zend-cache": "2.0.0beta5",
+        "zendframework/zend-log": "2.0.0beta5",
+        "zendframework/zend-config": "2.0.0beta5"
+    },
+
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "http://packages.zendframework.com/"
+        }
+    ]
+}
